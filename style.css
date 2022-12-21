@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Unbounded:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 100%;
+    background-color: #f3f0bd;
+}
+
+.cabecalho {
+    display:flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+    gap: 500px;
+}
+
+.cabecalho-imagens {
+    height: 300px;
+    width: 300px;
+}
+
+.cabecalho-botao-login {
+    padding: 6px 14px;
+    font-size: 20px;
+    background-color: #f3f0bd;
+    border: 4px solid white;
+    border-radius: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+.conteudo {
+    padding-top: 30px;
+    border-top: 3px solid white;
+}
+
+.conteudo-titulo {
+    padding-top: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E58901;
+    font-size: 40px;
+}
+
+.conteudo-subtitulo {
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e0a64f;
+    font-size: 20px;
+}
+
+.conteudo-meio-1 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: baseline;
+}
+
+.conteudo-meio-2 {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: baseline;
+}
+
+input {
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+label {
+    color: #a6a6a6;
+    font-family: 'Unbounded', cursive;
+    font-size: 13px;
+}
+
+.conteudo-botao-criar-conta {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-criar-conta {
+    padding: 10px 100px;
+    font-size: 22px;
+    background-color: #196F78;
+    border: 0px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.conteudo-texto {
+    display: flex;
+    justify-content: center;
+    color: #E58901;
+    font-size: 14px;
+}
